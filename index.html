@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Journal Survey </title>
+        <meta name="Author" content="Fajar Rizky Widodo">
+        <meta name="Description" content="The purpose of this survey is to know students' and lecturers' preferred journal.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1 id="title"> Journal Survey </h1>
+            <p id="description"> Due to decreased budget, university needs to unsubscribe some journals. Please fill this survey to help us decide 
+                which journals we should unsubscribe.
+            </p>
+            <form id="survey-form">
+                <div class="container">  
+                    <label id="name-label sub" for="name" class="sub"> Name </label>
+                    <input name="name" id="name" type="text" required placeholder="Enter your full name"> 
+                </div>
+                <div class="container">   
+                    <label id="email-label sub" for="email" class="sub"> Email </label> 
+                    <input name="email" id="email" type="email" required placeholder="Enter your college email">
+                </div>
+                <div class="container">
+                    <label id="number-label" for="number" class="sub"> University number </label> 
+                    <input name="niu" id="number" type="number" required min="0" max="99999" placeholder="Enter your university number">
+                </div>
+                <div class="container">
+                    <label for="dropdown" class="sub"> Select your role in university </label>
+                    <select name="role" id="dropdown" placeholder="select your role in uni">
+                        <option value="diploma student"> Diploma student </option>
+                        <option value="undergraduate student"> Undergraduate student </option>
+                        <option value="garduate student"> Graduate student </option>
+                        <option value="lecturer"> Lecturer </option>
+                    </select>
+                </div>
+                <div class="container">
+                    <label class="sub">Select your faculty</label>
+                    <div>
+                        <input name="faculty" id="biology" type="radio" value="biology">
+                        <label for="biology"> Biology </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="economics and business" type="radio" value="economics and business">
+                        <label for="economics and business"> Economics and Business </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="pharmacy" type="radio" value="pharmacy">
+                        <label for="pharmacy"> Pharmacy </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="philosophy" type="radio" value="philosophy">
+                        <label for="philosopy"> Philosophy </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="geography" type="radio" value="geography">
+                        <label for="geography"> Geography </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="law" type="radio" value="law">
+                        <label for="law"> Law </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="engineering" type="radio" value="engineering">
+                        <label for="engineering"> Engineering </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="dentistry" type="radio" value="dentistry">
+                        <label for="dentistry"> Dentistry </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="medicine" type="radio" value="medicine">
+                        <label for="medicine"> Medicine </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="forestry" type="radio" value="forestry">
+                        <label for="forestry"> Forestry </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="mathematics and natural sciences" type="radio" value="mathematics and natural sciences">
+                        <label for="mathematics and natural sciences">Mathematics and Natural Sciences </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="agriculture" type="radio" value="agriculture">
+                        <label for="agriculture"> Agriculture </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="animal science" type="radio" value="animal science">
+                        <label for="animal science"> Animal Science </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="cultural sciences" type="radio" value="cultural sciences">
+                        <label for="cultural sciences"> Cultural Sciences </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="social political science" type="radio" value="social political science">
+                        <label for="social political science"> Social Political Science </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="veterinary" type="radio" value="veterinary">
+                        <label for="veterinary"> Veterinary </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="agricultural technology" type="radio" value="agricultural technology">
+                        <label for="agricultural technology"> Agricultural Technology </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="psychology" type="radio" value="psychology">
+                        <label for="psychology"> Psychology </label>
+                    </div>
+                    <div>
+                        <input name="faculty" id="vocational school" type="radio" value="vocational school">
+                        <label for="vocational school"> Vocationial School </label>
+                    </div>
+                </div>
+                <div class="container">
+                    <label class="sub"> Choose journal(s) you use </label>
+                    <div>
+                        <input name="journal" id="acs" type="checkbox" value="acs publications">
+                        <label for="acs"> ACS Publications </label>
+                    </div> 
+                    <div>
+                        <input name="journal" id="access" type="checkbox" value="access library">
+                        <label for="access"> ACCESS Library </label>
+                    </div> 
+                    <div>
+                        <input name="journal" id="aps" type="checkbox" value="aps journals">
+                        <label for="aps journals"> APS Journals </label>
+                    </div>
+                    <div>
+                        <input name="journal" id="ama" type="checkbox" value="ama">
+                        <label for="ama"> AMA </label>
+                    </div>
+                    <div>
+                        <input name="journal" id="ahpc" type="checkbox" value="the animal health & production compendium">
+                        <label for="ahpc"> The Animal Health & Production Compendium </label>
+                    </div>
+                    <div>
+                        <input name="journal" id="ac" type="checkbox" value="aquculture compendium">
+                        <label for="ac"> Aquculture Compendium </label>
+                    </div>
+                    <div>
+                        <input name="journal" id="aip" type="checkbox" value="the american institue of physics">
+                        <label for="aip"> The American Institue of Physics </label>
+                    </div>
+                    <div>
+                        <input name="journal" id="asce" type="checkbox" value="asce">
+                        <label for="asce"> American Society of Civil Engineers </label>
+                    </div>
+                    <div>
+                        <input name="journal" id="asme" type="checkbox" value="asme">
+                        <label for="asme"> American Society of Mechanical Engineers </label>
+                    </div>
+                    <div class="container">
+                        <label class="sub"> Other journals </label>
+                        <textarea></textarea>
+                    </div>
+                    <button id="submit" type="submit">Submit</button>  
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
